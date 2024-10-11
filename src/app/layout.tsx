@@ -36,7 +36,7 @@ export default function RootLayout({
             List
           </Link>
         </nav>
-        <div className="flex justify-center items-center h-screen bg-slate-500">
+        <div className="flex justify-center flex-col h-screen bg-slate-500">
           {children}
         </div>
       </body>
